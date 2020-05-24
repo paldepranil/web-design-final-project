@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<title>Contact Us</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <style>
+    
+    </style>
+
+<body>
+
+ <div class="">
+
+        <section class="page-heading header" id="top">
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="d-col">
+                            <div class="logo">
+                                <img src="img/logo.png" alt="Flight">
+                            </div>
+                        </div>
+                        <div class="d-col">
+                            <div class="page-direction-button">
+                                <a href="index.html" class="link"><i class="fa fa-home"></i>Go Back Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+    <section class="contact-form" id="banner">
+        <div class="section-heading">
+            <h2>Contact Us</h2>
+        </div>
+
+        <form id="contact" action="#" method="post">
+            <input name="name" type="text" id="name" placeholder="Your name..." required="" value="">
+            <input name="number" type="text" id="number" placeholder="Your mobile number..." required="" maxlength="12">
+            <input name="email" type="text" id="email" placeholder="Your email..." required="">
+            <div class="radio"  style="color:white; margin-bottom: 10px">
+                <p>Please select your gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <p>Select Product Type</p>
+            <select id="prod" name="prod">
+            <option value="Flight">Flight</option>
+            <option value="Hotel">Hotel</option>
+            <option value="Event">Event</option>
+            </select>
+
+            <p>Request Type</p>
+            <select id="request" name="request">
+                <option value="new booking">New booking</option>
+                <option value="existing">Existing</option>
+                <option value="other">Other</option>
+            </select>
+
+            <input name="ref" type="text" id="ref" placeholder="Your reference number..." required="" value=""/>
+        
+            <textarea name="message" rows="6" id="message" placeholder="Write something..." required="" maxlength="250"></textarea>
+        
+            <button type="submit" id="form-submit" class="btn">Submit</button>
+        </form>
+    </section>
+</div>
+
+
+
+    <section class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="map">
+        <!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+        -->
+        <!-- <ifram src="https://www.google.ca/maps/place/5800+Cavendish+Blvd,+C%C3%B4te+Saint-Luc,+QC+H4W+2T5/@45.5019327,-73.6731301,12z/data=!4m5!3m4!1s0x4cc91772334437df:0x5b5ca092be3f8b41!8m2!3d45.4758369!4d-73.6662946?shorturl=1"/> -->
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7895.485196115994!2d103.85995441789784!3d1.2880401763270322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fb4e58ad9cd826e!2sSingapore+Flyer!5e0!3m2!1sen!2sth!4v1505825620371" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body>
+</html>
